@@ -1,7 +1,7 @@
 1. How does Flutter’s widget-based architecture and Dart’s reactive rendering model ensure smooth cross-platform UI performance across Android and iOS?
 Flutter uses a widget-based architecture where the entire UI is described as a tree of widgets. Widgets themselves are immutable, and UI changes are driven by changes in state, not by directly manipulating UI elements. This design allows Flutter to efficiently update only the necessary parts of the UI.
 
-In th CounterApp, the difference between StatelessWidget and StatefulWidget is:
+In th CounterApp,the difference between StatelessWidget and StatefulWidget is:
 
 StatefulWidget Example:
 class CounterApp extends StatefulWidget {
